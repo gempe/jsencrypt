@@ -65,6 +65,8 @@ function cbit(x) {
 
 var b64map = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 var b64pad = "=";
+var window = {};
+var navigator ={};
 function hex2b64(h) {
     var i;
     var c;
